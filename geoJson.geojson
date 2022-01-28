@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1086,
+          26.208
+        ]
+      },
+      "properties": {
+        "@ns:com:here:xyz": {
+          "tags": [
+            "football",
+            "stadium"
+          ]
+        },
+        "name": "Anfield",
+        "amenity": "Football ",
+        "capacity": 54074,
+        "popupContent": "Home of Liverpool Football Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.2167,
+          -23.5394
+        ]
+      },
+      "properties": {
+        "@ns:com:here:xyz": {
+          "tags": [
+            "football",
+            "stadium"
+          ]
+        },
+        "name": "Urul",
+        "amenity": "Basquete Stadium",
+        "capacity": 54074,
+        "popupContent": "Hestamos por aqui tambem"
+      }
+    }
+  ]
+}
