@@ -1953,7 +1953,7 @@ const DataLocale = {
               "stadium"
             ]
           },
-          "name": "Anfield",
+          "name": "Teste-busca",
           "amenity": "Football Stadium",
           "capacity": 54074,
           "popupContent": "Home of Liverpool Football Club"

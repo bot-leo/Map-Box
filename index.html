@@ -210,69 +210,69 @@
                         <img src="./assets/img/search.svg" />
                     </button>
 
-                </div>
+                </div>  
 
             </div>
 
-            <div class="content" id="filter-group">
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="area-periferica-1">
+            <form class="content" id="colors">
+                <!-- <input type="checkbox" name="filters" value="Sim"  onclick='showStations();' id="area-periferica-1">
                 <label for="area-periferica-1">Sim</label>
         
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="area-periferica-2">
-                <label for="area-periferica-2">Não</label>
+                <input type="checkbox" name="filters" value="Não"  onclick='showStations();' id="area-periferica-2">
+                <label for="area-periferica-2">Não</label> -->
         
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="tema-cotidiano">
+                <!-- <input type="checkbox" name="filters" value="tema-cotidiano"  onclick='showStations();' id="tema-cotidiano">
                 <label for="tema-cotidiano">Cotidiano</label>
             
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="tema-cultura">
+                <input type="checkbox" name="filters" value="tema-cultura"  onclick='showStations();' id="tema-cultura">
                 <label for="tema-cultura">Cultura</label>
-        
+         -->
             
             
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="segmento-radio">
+                <input type="checkbox" name="filters" value="Rádio"  onclick='showStations();' id="segmento-radio">
                 <label for="segmento-radio">Rádio</label>
         
 
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="segmento-impresso">
+                <input type="checkbox" name="filters" value="Impresso"  onclick='showStations();' id="segmento-impresso">
                 <label for="segmento-impresso">Impresso</label>
         
 
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="segmento-online">
+                <input type="checkbox" name="filters" value="Online"  onclick='showStations();' id="segmento-online">
                 <label for="segmento-online">Online</label>
             
-                <input type="checkbox" name="filters" checked onclick='showStations();' id="segmento-audiovisual">
+                <input type="checkbox" name="filters" value="Audiovisual"  onclick='showStations();' id="segmento-audiovisual">
         
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="perfil-homem">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Homem cisgênero"  onclick='showStations();' id="perfil-homem">
                 <label for="perfil-homem">Homem Cisgênero</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="perfil-mulher">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Mulher cisgênero"  onclick='showStations();' id="perfil-mulher">
                 <label for="perfil-mulher">Mulher Cisgênero</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="perfil-nao-declarado">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value=" "  onclick='showStations();' id="perfil-nao-declarado">
                 <label for="perfil-nao-declarado">Não declarou</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="perfil-branco">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Branca"  onclick='showStations();' id="perfil-branco">
                 <label for="perfil-branco">Branco</label>
         
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="perfil-pardo">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Parda"  onclick='showStations();' id="perfil-pardo">
                 <label for="perfil-pardo">Pardo</label>
         
 
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="vinculos-sociais">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Movimentos sociais"  onclick='showStations();' id="vinculos-sociais">
                 <label for="vinculos-sociais">Movimentos sociais</label>
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="vinculos-politico">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Político"  onclick='showStations();' id="vinculos-politico">
                 <label for="vinculos-politico">Político</label>
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" checked onclick='showStations();' id="vinculos-religioso">
+                <input class="filtro-checKbox" type="checkbox" name="filters" value="Religioso"  onclick='showStations();' id="vinculos-religioso">
                 <label for="vinculos-religioso">Religioso</label>
                    
-            </div>
+            </form>
 
         </div>
 
@@ -316,51 +316,54 @@ var mapConfig = {
 L.mapbox.accessToken = 'pk.eyJ1Ijoidm9sdCIsImEiOiJja3d5M3lrb2wwYThsMndvNjF2eHJoMXp2In0.-W-J1Wrz4q-ji1In0dLDHg'
 
 //Criando e iniciando o mapa com uma estilizacao padrao da conta do MapBox
-var map = L.mapbox
-    .map('map')
+var map = L.mapbox.map('map')
     .setView([-23.7850000,-46.6154967], 9)
-    .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/light-v10'));
+    .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/light-v10'))
 
-    var overlays = L.layerGroup().addTo(map);  
+var overlays = L.layerGroup().addTo(map)
 
-    var layers;
+var layers
+
+var filters = document.getElementById('colors').filters
  
-    // var myFeatureLayer = L.mapbox.featureLayer(DataLocale)
-    //   .addTo(map);
 
-    // myFeatureLayer.on('click', function(e) {
-    //     map.panTo(e.layer.getLatLng());
-    // });
-        
+L.mapbox.featureLayer()
+    .loadURL(DataLocale)
+    .on('ready', function(e) {
+          layers = e.target
 
-
-L.mapbox.featureLayer(DataLocale)
-.on('ready', function(e) {
-    layers = e.target;
-    console.log("Ola>>>>>")
-    showStations();
-});
-
-var filters = document.getElementById('filter-group')
-
-console.log("Filtros>>>>>>",filters).filters
-
-function showStations() {
+        // showStations()
+        // console.log("Aqui estao minha Layer!!!!@@@@@@@@@@>>>>>", layers)
+        // console.log("Aqui estao meus EVENTO@@@@@@@@@@>>>>>", e)
+    }).addTo(map)
     
-    var list = [];
+    
+
+
+    console.log("Aqui estao meus Layer@@@@@@@@@@>>>>>", layers)
+
+
+function showStations(){
+    var list = []
+
     for (var i = 0; i < filters.length; i++) {
         if (filters[i].checked) list.push(filters[i].value);
     }
     
-    overlays.clearLayers();
-    var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
-    layers.eachLayer(function(layer) {
-        if (list.indexOf(layer.feature.properties.line) !== -1) {
-            clusterGroup.addLayer(layer);
-        }
-    });
 
-    console.log("Estou clicando no checkl")
+    overlays.clearLayers()
+
+    var clusterGroup = new L.MarkerClusterGroup().addTo(overlays)
+
+    // layers.eachLayer(function(layer) {
+    //     if (list.indexOf(layer.feature.properties.name) === 'Anfield') {
+    //         clusterGroup.addLayer(layer)
+    //     }
+    // });
+
+    console.log("Aqui estao meus Filtros>>>>>", filters)
+    console.log("Aqui estao meus Lista!!!>>>>>", list)
+    console.log("Aqui estao meus Layer@@@@@@@@@@>>>>>", layers)
 }
 
 
