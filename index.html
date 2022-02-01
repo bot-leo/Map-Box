@@ -225,51 +225,50 @@
                 <label for="tema-cotidiano">Cotidiano</label>
             
                 <input type="checkbox" name="filters" value="tema-cultura"  onclick='showStations();' id="tema-cultura">
-                <label for="tema-cultura">Cultura</label>
-         -->
+                <label for="tema-cultura">Cultura</label>-->
             
             
-                <input type="checkbox" name="filters" value="Rádio"  onclick='showStations();' id="segmento-radio">
+                <input type="checkbox" name="filters" checked value="Rádio"  onclick='showStations();' id="segmento-radio">
                 <label for="segmento-radio">Rádio</label>
         
 
-                <input type="checkbox" name="filters" value="Impresso"  onclick='showStations();' id="segmento-impresso">
+                <input type="checkbox" name="filters" checked value="Impresso"  onclick='showStations();' id="segmento-impresso">
                 <label for="segmento-impresso">Impresso</label>
         
 
-                <input type="checkbox" name="filters" value="Online"  onclick='showStations();' id="segmento-online">
+                <input type="checkbox" name="filters" checked value="Online"  onclick='showStations();' id="segmento-online">
                 <label for="segmento-online">Online</label>
             
-                <input type="checkbox" name="filters" value="Audiovisual"  onclick='showStations();' id="segmento-audiovisual">
+                <input type="checkbox" name="filters" checked value="Audiovisual"  onclick='showStations();' id="segmento-audiovisual">
         
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Homem cisgênero"  onclick='showStations();' id="perfil-homem">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Homem cisgênero"  onclick='showStations();' id="perfil-homem">
                 <label for="perfil-homem">Homem Cisgênero</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Mulher cisgênero"  onclick='showStations();' id="perfil-mulher">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Mulher cisgênero"  onclick='showStations();' id="perfil-mulher">
                 <label for="perfil-mulher">Mulher Cisgênero</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value=" "  onclick='showStations();' id="perfil-nao-declarado">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value=" "  onclick='showStations();' id="perfil-nao-declarado">
                 <label for="perfil-nao-declarado">Não declarou</label>
             
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Branca"  onclick='showStations();' id="perfil-branco">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Branca"  onclick='showStations();' id="perfil-branco">
                 <label for="perfil-branco">Branco</label>
         
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Parda"  onclick='showStations();' id="perfil-pardo">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Parda"  onclick='showStations();' id="perfil-pardo">
                 <label for="perfil-pardo">Pardo</label>
         
 
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Movimentos sociais"  onclick='showStations();' id="vinculos-sociais">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Movimentos sociais"  onclick='showStations();' id="vinculos-sociais">
                 <label for="vinculos-sociais">Movimentos sociais</label>
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Político"  onclick='showStations();' id="vinculos-politico">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Político"  onclick='showStations();' id="vinculos-politico">
                 <label for="vinculos-politico">Político</label>
             
-                <input class="filtro-checKbox" type="checkbox" name="filters" value="Religioso"  onclick='showStations();' id="vinculos-religioso">
+                <input class="filtro-checKbox" type="checkbox" name="filters" checked value="Religioso"  onclick='showStations();' id="vinculos-religioso">
                 <label for="vinculos-religioso">Religioso</label>
                    
             </form>
@@ -328,14 +327,13 @@ var filters = document.getElementById('colors').filters
  
 // var featureLayer = L.mapbox.featureLayer(DataLocale).addTo(map)
 
-L.mapbox.featureLayer(DataLocale)
-    // .loadURL('./geoJson.geojson')
+L.mapbox.featureLayer()
+    .loadURL('./geoJson.geojson')
     .on('ready', function(e) {
           layers = e.target
 
         showStations()
-        console.log("Aqui estao minha Layer!!!!@@@@@@@@@@>>>>>", layers._geojson)
-        // console.log("Aqui estao meus EVENTO@@@@@@@@@@>>>>>", e)
+        console.log(">>>>>>> Layer Inicial", layers._geojson)
     }).addTo(map)
     
     
@@ -352,15 +350,17 @@ function showStations(){
 
     var clusterGroup = new L.MarkerClusterGroup().addTo(overlays)
 
-    // layers.eachLayer(function(layer) {
-    //     if (list.indexOf(layer.feature.properties.name) === 'Ola') {
-    //         clusterGroup.addLayer(layer)
-    //     }
-    // })
+    layers.eachLayer(function(layer) {
+        if (list.indexOf(layer.feature.properties.name) === 'Ola') {
+            clusterGroup.addLayer(layer)
+        }
+    })
 
-    console.log("Aqui estao meus Filtros>>>>>", filters)
-    console.log("Aqui estao meus Lista!!!>>>>>", list)
-    console.log("Aqui estao meus Layer@@@@@@@@@@>>>>>", layers)
+    console.log(">>>>Filtros-dentro-show-stations", filters)
+    console.log(">>>>List-dentro-show-stations", list)
+    console.log(">>>>Layers-dentro-show-stations", layers)
+    console.log(">>>>ClustersGroup-dentro-show-stations", clusterGroup)
+    console.log(">>>>Overlays-dentro-show-stations", overlays)
 }
 
 
