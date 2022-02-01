@@ -326,22 +326,19 @@ var layers
 
 var filters = document.getElementById('colors').filters
  
+// var featureLayer = L.mapbox.featureLayer(DataLocale).addTo(map)
 
-L.mapbox.featureLayer()
-    .loadURL(DataLocale)
+L.mapbox.featureLayer(DataLocale)
+    // .loadURL('./geoJson.geojson')
     .on('ready', function(e) {
           layers = e.target
 
-        // showStations()
-        // console.log("Aqui estao minha Layer!!!!@@@@@@@@@@>>>>>", layers)
+        showStations()
+        console.log("Aqui estao minha Layer!!!!@@@@@@@@@@>>>>>", layers._geojson)
         // console.log("Aqui estao meus EVENTO@@@@@@@@@@>>>>>", e)
     }).addTo(map)
     
     
-
-
-    console.log("Aqui estao meus Layer@@@@@@@@@@>>>>>", layers)
-
 
 function showStations(){
     var list = []
@@ -356,10 +353,10 @@ function showStations(){
     var clusterGroup = new L.MarkerClusterGroup().addTo(overlays)
 
     // layers.eachLayer(function(layer) {
-    //     if (list.indexOf(layer.feature.properties.name) === 'Anfield') {
+    //     if (list.indexOf(layer.feature.properties.name) === 'Ola') {
     //         clusterGroup.addLayer(layer)
     //     }
-    // });
+    // })
 
     console.log("Aqui estao meus Filtros>>>>>", filters)
     console.log("Aqui estao meus Lista!!!>>>>>", list)
