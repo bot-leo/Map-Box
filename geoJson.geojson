@@ -1,4 +1,6 @@
-[
+{
+  "type": "FeatureCollection",
+  "features":[
   {
   "type": "Feature",
   "geometry": {
@@ -70,8 +72,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -80.1086,
-      26.208
+      -46.3441,
+      -23.5199
     ]
   },
   "properties": {
@@ -93,7 +95,7 @@
     "type": "Point",
     "coordinates": [
       -46.3227,
-      -23.395
+      -23.3951
     ]
   },
   "properties": {
@@ -115,7 +117,7 @@
     "type": "Point",
     "coordinates": [
       -46.3565,
-      -23.496
+      -23.4962
     ]
   },
   "properties": {
@@ -137,7 +139,7 @@
     "type": "Point",
     "coordinates": [
       -46.035,
-      -23.412
+      -23.4128
     ]
   },
   "properties": {
@@ -159,7 +161,7 @@
     "type": "Point",
     "coordinates": [
       -45.8496,
-      -23.533
+      -23.5339
     ]
   },
   "properties": {
@@ -181,7 +183,7 @@
     "type": "Point",
     "coordinates": [
       -46.3694,
-      -23.54
+      -23.5404
     ]
   },
   "properties": {
@@ -203,7 +205,7 @@
     "type": "Point",
     "coordinates": [
       -46.5329,
-      -23.459
+      -23.4597
     ]
   },
   "properties": {
@@ -247,7 +249,7 @@
     "type": "Point",
     "coordinates": [
       -46.7915,
-      -23.532
+      -23.5326
     ]
   },
   "properties": {
@@ -269,7 +271,7 @@
     "type": "Point",
     "coordinates": [
       -46.2167,
-      -23.539
+      -23.5394
     ]
   },
   "properties": {
@@ -291,7 +293,7 @@
     "type": "Point",
     "coordinates": [
       -46.2167,
-      -23.539
+      -23.5394
     ]
   },
   "properties": {
@@ -313,7 +315,491 @@
     "type": "Point",
     "coordinates": [
       -46.5367,
-      -23.678
+      -23.6789
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5367,
+      -23.6789
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Ola",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.568,
+      -23.6164
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5536,
+      -23.7018
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -47.0708,
+      -23.9304
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.4123,
+      -23.7116
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.3694,
+      -23.5404
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5825,
+      -23.3158
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.7244,
+      -23.328
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.7796,
+      -23.62378
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.6396,
+      -23.5558
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.9265,
+      -23.6059
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.2167,
+      -23.5394
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -80.1086,
+      26.208
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.3441,
+      -23.5199
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5329,
+      -23.4597
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.6396,
+      -23.5558
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.2167,
+      -23.5394
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5536,
+      -23.7018
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.6396,
+      -23.5558
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.5367,
+      -23.6789
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -46.6396,
+      -23.5558
+    ]
+  },
+  "properties": {
+    "@ns:com:here:xyz": {
+      "tags": [
+        "football",
+        "stadium"
+      ]
+    },
+    "name": "Anfield",
+    "amenity": "Football Stadium",
+    "capacity": 54074,
+    "popupContent": "Home of Liverpool Football Club"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -47.0708,
+      -23.9304
     ]
   },
   "properties": {
@@ -335,29 +821,7 @@
     "type": "Point",
     "coordinates": [
       -46.568,
-      -23.616
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Ola",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
+      -23.6164
     ]
   },
   "properties": {
@@ -378,8 +842,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -80.1086,
-      26.208
+      -46.5536,
+      -23.7018
     ]
   },
   "properties": {
@@ -400,8 +864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -80.1086,
-      26.208
+      -46.6396,
+      -23.5558
     ]
   },
   "properties": {
@@ -417,468 +881,11 @@
     "popupContent": "Home of Liverpool Football Club"
   }
 },
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -80.1086,
-      26.208
-    ]
-  },
-  "properties": {
-    "@ns:com:here:xyz": {
-      "tags": [
-        "football",
-        "stadium"
-      ]
-    },
-    "name": "Anfield",
-    "amenity": "Football Stadium",
-    "capacity": 54074,
-    "popupContent": "Home of Liverpool Football Club"
-  }
-},
+
+
+
+
+
 {
   "type": "Feature",
   "geometry": {
@@ -10911,4 +10918,4 @@
     "popupContent": "Home of Liverpool Football Club"
   }
 }
-]
+]}
