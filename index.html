@@ -351,11 +351,13 @@ function showStations(){
     var clusterGroup = new L.MarkerClusterGroup().addTo(overlays)
 
     layers.eachLayer(function(layer) {
-        if (list.indexOf(layer.feature.properties.name) === 'Ola') {
-            clusterGroup.addLayer(layer)
-        }
+        // if (list.indexOf(layer.feature.properties.line) !== -1) {
+        //     clusterGroup.addLayer(layer);
+        // }
+        clusterGroup.addLayer(layer)
+        console.log(">>>Descobrindo oque tem na minha Layer", layer)
     })
-
+  
     console.log(">>>>Filtros-dentro-show-stations", filters)
     console.log(">>>>List-dentro-show-stations", list)
     console.log(">>>>Layers-dentro-show-stations", layers)
